@@ -26,4 +26,4 @@ Start your Virtualbox > Click on New and Enter details as follows<br>
     - Type: Select Linux
     - Version: Select Red Hat (64bit) or Red Hat (32bit) depending on the Image file version downloaded earlier
 
-<img src="images/java_version.JPG">
+<img src="images/new_vm.JPG">
