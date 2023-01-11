@@ -80,3 +80,5 @@ Run the following commands
     cd /media/VirtualBoxGuestAdditions
     ./VBoxLinuxAdditions.run
 ```
+
+Reboot the machine and you should now be able to move your mouse between the screens. As seen also, the scrollbar at the edge of the screen now gone
