@@ -59,3 +59,10 @@ Open your terminal and change to root user
     yum update kernel*
     reboot
 ```
+<img src="images/update_kernel.JPG">
+
+Install following packages
+```sh
+    rpm -Uvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-9.noarch.rpm
+    yum install gcc kernel-devel kernel-headers dkms make bzip2 perl
+```
