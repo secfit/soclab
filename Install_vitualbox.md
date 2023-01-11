@@ -52,3 +52,10 @@ You should connect to local network in order to connect to Internet.
 <br>
 <br>
 ### Install Guest Additions On CentOS 7
+You need to install the Guest Additions to allow you move your mouse freely between your VM and your physical desktop machine and also resize the VM desktop resolution<br>
+Open your terminal and change to root user
+```sh
+    su -
+    yum update kernel*
+    reboot
+```
