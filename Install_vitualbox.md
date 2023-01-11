@@ -64,7 +64,9 @@ Open your terminal and change to root user
 Install following packages
 ```sh
     yum install epel-release
-    yum install gcc kernel-devel kernel-headers dkms make bzip2 perl nano
+    yum install gcc kernel-headers dkms make bzip2 perl nano binutils patch libgomp glibc-headers
+    yum install kernel-devel
+          
 ```
 
 Mount the Guest Additions CD by clicking on Devices > Insert Guest Additions CD image. Cancel the promt displayed<br>
