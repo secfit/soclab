@@ -63,6 +63,18 @@ Open your terminal and change to root user
 
 Install following packages
 ```sh
-    rpm -Uvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-9.noarch.rpm
-    yum install gcc kernel-devel kernel-headers dkms make bzip2 perl
+    yum install epel-release
+    yum install gcc kernel-devel kernel-headers dkms make bzip2 perl nano
+```
+
+Mount the Guest Additions CD by clicking on Devices > Insert Guest Additions CD image. Cancel the promt displayed<br>
+go to Devices > Insert Guest Additions CD image...<br>
+<img src="images/run_vbox.JPG">
+
+Run the following commands
+```sh
+    mkdir /media/VirtualBoxGuestAdditions
+    mount -r /dev/cdrom /media/VirtualBoxGuestAdditions
+    cd /media/VirtualBoxGuestAdditions
+    ./VBoxLinuxAdditions.run
 ```
