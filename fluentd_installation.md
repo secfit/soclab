@@ -67,7 +67,7 @@ copy this file "out_modsecurity-audit-format.rb" to last fluentd-ruby-plugins-lo
 
 set permission
 ```sh
-  chmod 664 /opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/fluentd-1.11.5/lib/out_modsecurity-audit-format.rb
+  chmod 664 /opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/fluentd-1.11.5/lib/fluent/plugin/out_modsecurity-audit-format.rb
 ```
 
 copy plugin file fluent-plugin-modsecurity.gemspec to /etc/td-agent/
@@ -78,13 +78,22 @@ copy plugin file fluent-plugin-modsecurity.gemspec to /etc/td-agent/
 
 set s.files value in /etc/td-agent/fluent-plugin-modsecurity.gemspec
 ```sh
-  sed -i "s;__sfile__;/opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/fluentd-1.11.5/lib/out_modsecurity-audit-format.rb;g" /etc/td-agent/fluent-plugin-modsecurity.gemspec
+  sed -i "s;__sfile__;/opt/td-agent/embedded/lib/ruby/gems/2.4.0/gems/fluentd-1.11.5/lib/fluent/plugin/out_modsecurity-audit-format.rb;g" /etc/td-agent/fluent-plugin-modsecurity.gemspec
 ```
 
 build the gem
 ```sh
   /opt/td-agent/embedded/bin/gem build /etc/td-agent/fluent-plugin-modsecurity.gemspec
 ```
+You should get success message:
+
+*WARNING:  description and summary are identical<br>
+WARNING:  See http://guides.rubygems.org/specification-reference/ for help<br>
+  Successfully built RubyGem<br>
+  Name: fluent-plugin-modsecurity<br>
+  Version: 0.2<br>
+  File: fluent-plugin-modsecurity-0.2.gem<br>*
+
 
 Integrate into td-agent.conf
 ```sh
