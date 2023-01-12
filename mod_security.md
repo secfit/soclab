@@ -8,7 +8,14 @@ Install Epel Release
   ```sh
   rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
   yum install mod_security
-  service httpd restart
   ```
+  
+Download mod_security config file
+```sh
+  cd /etc/httpd/conf.d/
+  wget https://github.com/secfit/soclab/blob/main/repo/mod_security.conf
+  service httpd restart
+``` 
+  
   
   
