@@ -119,7 +119,7 @@ WARNING:  See http://guides.rubygems.org/specification-reference/ for help<br>
 	
 ## Output
 	#---- Mod_Security_log ----#
-	<match modsec.formatted.*>
+	<match modsec.formatted>
   	@type copy
         <store>
         @type elasticsearch
