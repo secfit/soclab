@@ -13,7 +13,7 @@ Install Epel Release
 Download mod_security config file
 ```sh
   cd /etc/httpd/conf.d/
-  wget https://github.com/secfit/soclab/blob/main/repo/mod_security.conf
+  wget https://raw.githubusercontent.com/secfit/soclab/main/repo/mod_security.conf
   service httpd restart
 ``` 
   
