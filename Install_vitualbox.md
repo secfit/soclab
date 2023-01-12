@@ -48,37 +48,4 @@ Access Mod, chose "Bridg"
 <img src="images/vb_net_setting.JPG">
 
 You should connect to local network in order to connect to Internet.
-<br>
-<br>
-<br>
-### Install Guest Additions On CentOS 7
-You need to install the Guest Additions to allow you move your mouse freely between your VM and your physical desktop machine and also resize the VM desktop resolution<br>
-Open your terminal and change to root user
-```sh
-    su -
-    yum update kernel*
-    reboot
-```
-<img src="images/update_kernel.JPG">
 
-Install following packages
-```sh
-    yum install epel-release
-    yum install gcc kernel-headers dkms make bzip2 perl nano binutils patch libgomp glibc-headers
-    yum install kernel-devel
-          
-```
-
-Mount the Guest Additions CD by clicking on Devices > Insert Guest Additions CD image. Cancel the promt displayed<br>
-go to Devices > Insert Guest Additions CD image...<br>
-<img src="images/run_vbox.JPG">
-
-Run the following commands
-```sh
-    mkdir /media/VirtualBoxGuestAdditions
-    mount -r /dev/cdrom /media/VirtualBoxGuestAdditions
-    cd /media/VirtualBoxGuestAdditions
-    ./VBoxLinuxAdditions.run
-```
-
-Reboot the machine and you should now be able to move your mouse between the screens. As seen also, the scrollbar at the edge of the screen now gone
