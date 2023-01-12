@@ -39,7 +39,8 @@
         mkdir /opt/fluent/
       ``` 
   * Download Config File & start service
-
+    ```sh
   cd /etc/td-agent/
   wget https://raw.githubusercontent.com/secfit/soclab/main/repo/mod_security.conf
   service td-agent restart
+     ```
