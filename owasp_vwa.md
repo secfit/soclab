@@ -8,8 +8,8 @@
   ```sh
 rpm -ivh https://repo.mysql.com/yum/mysql-connectors-community/el/7/x86_64/mysql-community-release-el7-5.noarch.rpm
 cd /etc/yum.repos.d/
-wget https://github.com/secfit/soclab/blob/main/repo/mysql-community-source.repo
-wget https://github.com/secfit/soclab/blob/main/repo/mysql-community.repo
+wget https://raw.githubusercontent.com/secfit/soclab/main/repo/mysql-community-source.repo
+wget https://raw.githubusercontent.com/secfit/soclab/main/repo/mysql-community.repo
 yum -y install mysql-community-server
 service mysqld start
   ```
