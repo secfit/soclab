@@ -139,3 +139,8 @@ Integrate into td-agent.conf
 
 	
 ```
+
+restart fluentd service
+```sh
+  service td-agent restart
+```
