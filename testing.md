@@ -34,17 +34,4 @@ http://127.0.0.1/Vulnerable-Web-Application-master/XSS/XSS_level1.php
 
 [6c1d8c4afbc7f85f05fb2e4d17e5553255b0195a0b56ba5309e362e2156debfc]
 
-(http://66.117.8.162:8080/users/admin_index
-admin				kVYoghBmxQOH4o4HnQmcsBZiA
-admin@admin.test		6_EusicnWdL3zHvl0Qm5IhRjS
-user1@testmips.com		Mssjo20s@sjs+qs51
-user2@testmips.com		Mssjo20s@sjs+qs521
-user3@testmips.com		Mssjo20s@sjs+qs53
-user4@testmips.com		Mssjo20s@sjs+qs54
-user5@testmips.com		Mssjo20s@sjs+qs55
-user6@testmips.com		Mssjo20s@sjs+qs56
-user7@testmips.com		Mssjo20s@sjs+qs57
-user8@testmips.com		Mssjo20s@sjs+qs58
-user9@testmips.com		Mssjo20s@sjs+qs59
-user10@testmips.com		Mssjo20s@sjs+qs10
-)
+
