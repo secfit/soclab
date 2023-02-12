@@ -87,17 +87,17 @@ user10@testmips.com		Mssjo20s@sjs+qs10<br>
 
 
 
-https://github.com/kbandla/APTnotes
-https://github.com/center-for-threat-informed-defense/adversary_emulation_library
-https://github.com/center-for-threat-informed-defense/adversary_emulation_library/blob/master/apt29/Intelligence_Summary.md
-https://center-for-threat-informed-defense.github.io/attack-flow/example_flows/
-https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml?pli=1#
-https://github.com/mxm0z?tab=repositories
-https://github.com/mxm0z/awesome-threat-detection#trainings
-https://github.com/microsoft/msticpy
+https://github.com/kbandla/APTnotes<br>
+https://github.com/center-for-threat-informed-defense/adversary_emulation_library<br>
+https://github.com/center-for-threat-informed-defense/adversary_emulation_library/blob/master/apt29/Intelligence_Summary.md<br>
+https://center-for-threat-informed-defense.github.io/attack-flow/example_flows/<br>
+https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml?pli=1#<br>
+https://github.com/mxm0z?tab=repositories<br>
+https://github.com/mxm0z/awesome-threat-detection#trainings<br>
+https://github.com/microsoft/msticpy<br>
 
 
-https://mitre-attack.github.io/attack-navigator/
+https://mitre-attack.github.io/attack-navigator/<br>
 
 
 
